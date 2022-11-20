@@ -1,7 +1,9 @@
 
 public class ArrayList implements List { 
 
-    /*List field */
+    /*List field
+    since it's not private, can get using name.list;
+    */
     Object [] list;
 
     /*List constructor
@@ -11,5 +13,10 @@ public class ArrayList implements List {
     public ArrayList() {
         list = new Object[1000000];
     }
+
+    /*Note: @Override before every method you implement is a type of annotation that doesn't affect how the code runs
+     * but it makes the code easier to read
+     * In this assignment, it's optional but encouraged
+     */
     
 }
