@@ -16,10 +16,13 @@ public interface Heap {
      * 
     */
 
+    public int[] getHeap();
+
     /*Insert the element at the correct order
       * Fails is the heap is full and duplicates are allowed
       * Hint: you won't use heapify (since the tree is already heapified)
       * You would only swap until it's in the right place
+      * HINT: the index of the left child is 2 * index, the index of the right child is 2 * index + 1, and the index of the parent is index/2
      * @param the int element
     */
     public void insert(int element);

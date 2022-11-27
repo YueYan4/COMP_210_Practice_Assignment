@@ -12,7 +12,7 @@ public interface Edge {
     /*Gets the source node
      * @return the node at the source
     */
-    public GraphNode getSoursce();
+    public GraphNode getSource();
 
     /*Gets the destination node
      * @return the node at the destination

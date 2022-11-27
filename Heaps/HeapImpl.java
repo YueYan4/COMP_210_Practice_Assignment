@@ -18,7 +18,7 @@ public class HeapImpl implements Heap{
     /*Gets the heap array
      * @return the array
      */
-    public int[] getElts() {
+    public int[] getHeap() {
         return this.elts;
     }
     

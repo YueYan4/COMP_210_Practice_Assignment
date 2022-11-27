@@ -28,7 +28,7 @@ public interface List {
     public boolean contains(Object o);
 
     /*Gets the element at the position; check if the position is within the range of the list 
-     * @param the position/index
+     * @param the position/index, with list starting at position/index 0
      * @return the object at the position/index
     */
     public Object get(int position);

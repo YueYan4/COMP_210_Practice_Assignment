@@ -19,24 +19,16 @@ public interface BST {
      */
     public int size();
 
-    /*Gets the longest path from the root to a leaf
-     * HINT: use recursive helper method; remember: every child is another BST
-     * with its own height
-     * @return the height 
+    /*Inserts a new node
+     * Sets it as the root if the tree is empty
+     * HINT: use a recursive helper method
+     * If a left child is empty and the value is < the parent, put it as the left child
+     * Else, call the method again on the left child
+     * If a right child is empty and the value is > the parent, put is as the right child
+     * Else, call the method again on the right child
+     * No duplicate values
+     * Don't forget to update the size
+     * @params int value of the Node to add
      */
-    public int height();
-    
-    /*Sees if the given value is in the tree
-     * HINT: Use a recursive helper method; start at the root and go down each path
-     * @param the value to find
-     * @return true if the value is in the tree, false else
-     */
-    public boolean contains(int val);
-
-    /*Removes the node with the given values (if it exists) 
-     * HINT: use recursion; remember tha left < parent and right > parent
-     * use the BSTNode's set and get methods
-     * @param value to remove
-    */
-    public void remove(int val);
+    public void insert(int val);    
 }
