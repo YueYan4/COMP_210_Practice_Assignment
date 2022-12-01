@@ -6,7 +6,7 @@ public class GraphNodeImpl implements GraphNode {
 
     private String name;
     private List<Edge> edges;
-    private int indegree;
+    private int inDegree;
     private double distance;
     
     /*Constructor that sets everything to the initial value 
@@ -17,7 +17,7 @@ public class GraphNodeImpl implements GraphNode {
     public GraphNodeImpl(String label) {
         this.name = label;
         this.edges = new ArrayList<>();
-        this.indegree = 0;
+        this.inDegree = 0;
         this.distance = Double.MAX_VALUE;
     }
 

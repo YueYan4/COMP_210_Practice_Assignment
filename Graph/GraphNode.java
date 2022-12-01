@@ -62,7 +62,7 @@ public interface GraphNode {
     /*Gets the distance/priority
      * @return the distance
     */
-    public int getDistance();
+    public double getDistance();
 
     /*Set the distance
      * @params the distance
