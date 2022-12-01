@@ -28,7 +28,7 @@ public interface GraphNode {
     /*Gets the indegree 
      * @return the number of in edges
     */
-    public int getIndegree();
+    public int getInDegree();
 
     /*Increases the indegree by 1 */
     public void increment();
@@ -39,7 +39,7 @@ public interface GraphNode {
     /*Adds the edge 
      * Hint: you can do it in one line
     */
-    public void addEdge();
+    public void addEdge(Edge e);
 
     /*Check if the edge with the given destination exists
      * Hint: loop through the edges until the name of the destination 
