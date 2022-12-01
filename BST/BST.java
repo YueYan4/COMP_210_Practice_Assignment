@@ -29,6 +29,7 @@ public interface BST {
      * No duplicate values
      * Don't forget to update the size
      * @params int value of the Node to add
+     * @return the value added
      */
     public int insert(int val);    
 }
