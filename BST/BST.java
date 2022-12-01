@@ -30,5 +30,5 @@ public interface BST {
      * Don't forget to update the size
      * @params int value of the Node to add
      */
-    public void insert(int val);    
+    public int insert(int val);    
 }
