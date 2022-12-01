@@ -67,6 +67,6 @@ public interface GraphNode {
     /*Set the distance
      * @params the distance
     */
-    public void setDistance(int distance);
+    public void setDistance(double distance);
 } 
 
